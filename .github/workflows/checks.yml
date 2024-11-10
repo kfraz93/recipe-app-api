@@ -5,6 +5,7 @@ on: [push]
 
 jobs:
   tests-lint:
+    environment: PG
     name: Test and Lint
     runs-on: ubunto-latest
     steps: 
